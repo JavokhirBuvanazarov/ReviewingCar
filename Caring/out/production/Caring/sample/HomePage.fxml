@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="943.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomePage">
+   <children>
+      <VBox fx:id="overflowContainer" prefHeight="98.0" prefWidth="136.0">
+         <children>
+            <JFXButton fx:id="logout" onAction="#logOut" prefHeight="51.0" prefWidth="136.0" text="Log out" />
+            <JFXButton fx:id="exit" onAction="#exit" prefHeight="50.0" prefWidth="136.0" text="Exit" />
+         </children>
+      </VBox>
+      <Pane fx:id="borderPane" prefHeight="600.0" prefWidth="209.0" style="-fx-background-color: #2D3447;">
+         <children>
+            <ImageView fitHeight="63.0" fitWidth="59.0" layoutX="75.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/carr.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="25.0" layoutY="69.0" prefHeight="38.0" prefWidth="48.0" style="-fx-text-fill: #b3a9d6;" text="Car">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="90.0" layoutY="69.0" prefHeight="38.0" prefWidth="96.0" style="-fx-text-fill: white;" text="Review">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Line endX="9.5" layoutX="94.0" layoutY="117.0" startX="-100.0" stroke="#f2f2f2" />
+            <AnchorPane layoutY="148.0" prefHeight="111.0" prefWidth="209.0" style="-fx-background-color: #46506d;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="175.0" text="Welcome to Car Review" textFill="#fffdfd" />
+                  <Label layoutX="14.0" layoutY="40.0" prefHeight="30.0" prefWidth="175.0" text="Here, you will find" textFill="#f8f6f6" />
+                  <Label layoutX="14.0" layoutY="70.0" prefHeight="30.0" prefWidth="175.0" text="car information" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <Label fx:id="dashboard" layoutY="277.0" prefHeight="59.0" prefWidth="209.0" text=" Dashboard" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="44.0" layoutY="351.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="96.0" style="-fx-background-color: #2D3447;" text="MY CARS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="homeButton" layoutX="54.0" layoutY="361.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="96.0" style="-fx-background-color: #2D3447;" text="Home" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="myCars" layoutX="47.0" layoutY="413.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="111.0" style="-fx-background-color: #2D3447;" text="My cars" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="about" layoutX="47.0" layoutY="467.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="111.0" style="-fx-background-color: #2D3447;" text="About" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="164.0" layoutY="413.0" prefHeight="30.0" prefWidth="26.0" style="-fx-background-color: #6600cc; -fx-text-alignment: center; -fx-border-radius: 3%;" text=" 0" textFill="#fffafa">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Line endX="88.5" layoutX="102.0" layoutY="517.0" startX="-83.5" stroke="#f5f5f5" />
+            <JFXButton fx:id="contactUs" layoutX="32.0" layoutY="538.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="145.0" style="-fx-background-color: #2D3447; -fx-border-color: white; -fx-border-width: 3px;" text="CONTACT US" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <AnchorPane layoutX="209.0" layoutY="-8.0" prefHeight="600.0" prefWidth="728.0">
+         <children>
+            <Separator layoutY="44.0" prefHeight="24.0" prefWidth="591.0" />
+            <Label layoutX="554.0" prefHeight="59.0" prefWidth="37.0" />
+            <Label fx:id="welcome" alignment="CENTER" contentDisplay="CENTER" layoutX="-3.0" layoutY="6.0" prefHeight="53.0" prefWidth="744.0" style="-fx-background-color: #2D3447;" text="Welcome" textFill="#fffafa">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="holderPane" layoutX="11.0" layoutY="72.0" prefHeight="522.0" prefWidth="714.0" />
+            <HBox fx:id="toolbarRight" layoutX="688.0" layoutY="9.0" prefHeight="53.0" prefWidth="53.0">
+               <children>
+                  <Label fx:id="lblMenu">
+                     <graphic>
+                        <ImageView fx:id="tripleButton" fitHeight="53.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image/dots.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+#username, #location,#password{
+    -fx-text-inner-color: white;
+    -fx-border-color: #54458C;
+    -fx-background-color:  #2D3447;
+
+}
+.check-box:selected > .box > .mark,
+.check-box:indeterminate  > .box > .mark {
+    /* modify mark color */
+    -fx-background-color:   #54458C;
+}
+.check-box:selected > .box {
+    /* background color for selected checkbox */
+    -fx-background-color: #2D3447;
+}
+
+.check-box > .box {
+    /* background color of unselected checkbox */
+    -fx-background-color:  #2D3447;
+    -fx-border-color:  #54458C;
+    -fx-border-radius: 3px;
+}
+.radio-button .radio {
+    -fx-background-color: #2D3447;
+    -fx-border-color:  #54458C;
+    -fx-border-radius: 50%;
+    -fx-border-width: 3px;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: #54458C;
+    -fx-background-insets: 0;
+}
+.card-white {
+    -fx-background-color: rgb(255.0, 255.0, 255.0);
+    -fx-background-radius: 4.0;
+    -fx-effect: dropshadow(gaussian,rgba(0.0,0.0,0.0,0.15) , 6, 0.7, 0.0, 1.5);
+}

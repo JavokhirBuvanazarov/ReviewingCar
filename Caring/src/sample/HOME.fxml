@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="home" prefHeight="552.0" prefWidth="714.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HOME">
+   <children>
+      <JFXButton fx:id="tesla" contentDisplay="TOP" layoutX="33.0" layoutY="6.0" mnemonicParsing="false" onAction="#teslaAction" prefHeight="235.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-color: #2D3447; -fx-border-width: 3px; -fx-border-radius: 5px;" text="Tesla">
+         <graphic>
+            <ImageView fitHeight="119.0" fitWidth="268.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/tesla.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="bmw" contentDisplay="TOP" layoutX="33.0" layoutY="263.0" mnemonicParsing="false" onAction="#bmwAction" prefHeight="235.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-color: #2D3447; -fx-border-width: 3px; -fx-border-radius: 5px;" text="BMW">
+         <graphic>
+            <ImageView fitHeight="108.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/bmw.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="rr" contentDisplay="TOP" layoutX="377.0" layoutY="263.0" mnemonicParsing="false" onAction="#rrAction" prefHeight="235.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-color: #2D3447; -fx-border-width: 3px; -fx-border-radius: 5px;" text="Rolls Royce">
+         <graphic>
+            <ImageView fitHeight="121.0" fitWidth="262.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/rr.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="benz" contentDisplay="TOP" layoutX="377.0" layoutY="6.0" mnemonicParsing="false" onAction="#benzAction" prefHeight="235.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-color: #2D3447; -fx-border-width: 3px; -fx-border-radius: 5px;" text="Mersedes Benz">
+         <graphic>
+            <ImageView fitHeight="121.0" fitWidth="262.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/benz.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

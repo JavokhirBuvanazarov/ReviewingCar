@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="549.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Merz">
+   <children>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="235.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-color: #2D3447; -fx-border-width: 3px; -fx-border-radius: 5px;" text="Mersedes Benz AMG GT" textFill="#1b1b1b">
+         <font>
+            <Font name="Chilanka Regular" size="16.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="107.0" fitWidth="174.0" layoutX="87.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Benz_C1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="34.0" layoutY="153.0" prefHeight="38.0" prefWidth="111.0" text="Starting from :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="153.0" prefHeight="38.0" prefWidth="124.0" text="\$ 112,700" textFill="#3e0379">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="49.0" fitWidth="186.0" layoutX="89.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/4.5.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="44.0" layoutY="122.0" prefHeight="31.0" prefWidth="250.0" text="Mersedes Benz AMG GT">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="346.0" layoutY="14.0" mnemonicParsing="false" prefHeight="235.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-color: #2D3447; -fx-border-width: 3px; -fx-border-radius: 5px;" text="Mersedes Benz AMG GT" textFill="#1b1b1b">
+         <font>
+            <Font name="Chilanka Regular" size="16.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="107.0" fitWidth="174.0" layoutX="421.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Benz_C3.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="368.0" layoutY="153.0" prefHeight="38.0" prefWidth="111.0" text="Starting from :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="153.0" prefHeight="38.0" prefWidth="124.0" text="\$ 124,500" textFill="#3e0379">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="49.0" fitWidth="158.0" layoutX="423.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/5.0.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="378.0" layoutY="122.0" prefHeight="31.0" prefWidth="250.0" text="Mersedes Benz G-Class">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="15.0" layoutY="267.0" mnemonicParsing="false" prefHeight="235.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-color: #2D3447; -fx-border-width: 3px; -fx-border-radius: 5px;" text="Mersedes Benz AMG GT" textFill="#1b1b1b">
+         <font>
+            <Font name="Chilanka Regular" size="16.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="107.0" fitWidth="174.0" layoutX="88.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Benz_C2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="35.0" layoutY="406.0" prefHeight="38.0" prefWidth="111.0" text="Starting from :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="406.0" prefHeight="38.0" prefWidth="124.0" text="\$ 33,100" textFill="#3e0379">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="49.0" fitWidth="186.0" layoutX="90.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/2.5.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="45.0" layoutY="375.0" prefHeight="31.0" prefWidth="250.0" text="Mersedes Benz CLA">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="346.0" layoutY="267.0" mnemonicParsing="false" prefHeight="235.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-color: #2D3447; -fx-border-width: 3px; -fx-border-radius: 5px;" text="Mersedes Benz AMG GT" textFill="#1b1b1b">
+         <font>
+            <Font name="Chilanka Regular" size="16.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="107.0" fitWidth="174.0" layoutX="419.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Benz_C4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="366.0" layoutY="406.0" prefHeight="38.0" prefWidth="111.0" text="Starting from :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="488.0" layoutY="415.0" prefHeight="38.0" prefWidth="124.0" text="\$ 91,250" textFill="#3e0379">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="49.0" fitWidth="186.0" layoutX="421.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/3.5.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="376.0" layoutY="375.0" prefHeight="31.0" prefWidth="250.0" text="Mersedes Benz S-Class">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="back" contentDisplay="GRAPHIC_ONLY" layoutX="665.0" layoutY="25.0" minWidth="43.0" onAction="#backAction" prefHeight="49.0" prefWidth="43.0" style="-fx-background-color: white; -fx-border-radius: 50%; -fx-background-radius: 50%;">
+         <graphic>
+            <ImageView fitHeight="42.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/x.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>
